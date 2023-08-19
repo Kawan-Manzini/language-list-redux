@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Aplicação de Estudo React + TypeScript + Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de estudo para aprender e praticar o uso do Redux com Redux Toolkit em uma aplicação React desenvolvida em TypeScript. O objetivo desta aplicação é demonstrar como configurar e utilizar o Redux para gerenciar o estado global de um aplicativo web.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React
+- TypeScript
+- Redux
+- Redux Toolkit
+- react-redux
+- Yarn (gerenciador de pacotes)
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A aplicação de estudo inclui as seguintes funcionalidades:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Listagem**: Uma simples funcionalidade de listagem que demonstra como criar ações, reducers e componentes conectados ao Redux.
+- **Lista de Linguagens de Programação**: Uma lista de linguagens onde você pode adicionar e favoritar. Isso ilustra como o Redux pode ser usado para gerenciar o estado de aplicativos mais complexos.
 
-### `npm test`
+## Configuração
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga estas etapas para configurar e executar a aplicação em seu ambiente local:
 
-### `npm run build`
+1. **Clone o repositório:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```shell
+    git clone https://github.com/Kawan-Manzini/language-list-redux.git
+    cd language-list-redux
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Instale as dependências:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Certifique-se de ter o Yarn instalado. Se não, você pode instalá-lo a partir [deste link](https://yarnpkg.com/).
 
-### `npm run eject`
+    ```shell
+    yarn install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. **Execute a aplicação:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```shell
+    yarn start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Isso iniciará o servidor de desenvolvimento e abrirá a aplicação em seu navegador padrão.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Estrutura do Projeto
 
-## Learn More
+A estrutura do projeto é organizada da seguinte forma:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/`: Contém todos os arquivos-fonte da aplicação.
+  - `components/`: Componentes React reutilizáveis.
+  - `redux/`: Configurações Redux, incluindo slices, reducers e a configuração da store.
+  - `App.tsx`: O componente principal que renderiza a aplicação.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Aprendizado Adicional
+
+Se você deseja aprender mais sobre como o Redux Toolkit e o react-redux foram configurados e utilizados neste projeto, consulte os seguintes recursos:
+
+- [Documentação do Redux Toolkit](https://redux-toolkit.js.org/)
+- [Documentação do react-redux](https://react-redux.js.org/)
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Basta criar um fork deste repositório, fazer suas modificações e enviar um pull request.
