@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+Aplicação de Estudo React + TypeScript + Redux
+Este é um projeto de estudo para aprender e praticar o uso do Redux com Redux Toolkit em uma aplicação React desenvolvida em TypeScript. O objetivo desta aplicação é demonstrar como configurar e utilizar o Redux para gerenciar o estado global de um aplicativo web.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tecnologias Utilizadas
+React
+TypeScript
+Redux
+Redux Toolkit
+react-redux
+Yarn (gerenciador de pacotes)
+Funcionalidades
+A aplicação de estudo inclui as seguintes funcionalidades:
 
-## Available Scripts
+Listagem: Uma simples funcionalidade de listagem que demonstra como criar ações, reducers e componentes conectados ao Redux.
+Lista de linguagens de programaçao : Uma lista de linguagens onde você pode adicionar e favoritar. Isso ilustra como o Redux pode ser usado para gerenciar o estado de aplicativos mais complexos.
+Configuração
+Siga estas etapas para configurar e executar a aplicação em seu ambiente local:
 
-In the project directory, you can run:
+Clone o repositório:
 
-### `npm start`
+shell
+Copy code
+git clone https://github.com/seu-usuario/react-ts-redux-study-app.git
+cd react-ts-redux-study-app
+Instale as dependências:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Certifique-se de ter o Yarn instalado. Se não, você pode instalá-lo a partir deste link.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+shell
+Copy code
+yarn install
+Execute a aplicação:
 
-### `npm test`
+shell
+Copy code
+yarn start
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação em seu navegador padrão.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Estrutura do Projeto
+A estrutura do projeto é organizada da seguinte forma:
 
-### `npm run build`
+src/: Contém todos os arquivos-fonte da aplicação.
+components/: Componentes React reutilizáveis.
+redux/: Configurações Redux, incluindo slices, reducers e a configuração da store.
+App.tsx: O componente principal que renderiza a aplicação.
+public/: Contém arquivos públicos, como o arquivo HTML base.
+Aprendizado Adicional
+Se você deseja aprender mais sobre como o Redux Toolkit e o react-redux foram configurados e utilizados neste projeto, consulte os seguintes recursos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Documentação do Redux Toolkit
+https://redux-toolkit.js.org/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Documentação do react-redux
+https://react-redux.js.org/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuindo
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Basta criar um fork deste repositório, fazer suas modificações e enviar um pull request.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
